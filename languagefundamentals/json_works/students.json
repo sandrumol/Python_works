@@ -1,0 +1,26 @@
+[
+    {
+       "id":1,
+       "name":"vijay",
+       "department":"qa",
+       "salary":35000
+    } ,
+    {
+       "id":2,
+       "name":"vinay",
+       "department":"hr",
+       "salary":45000
+    }   ,
+    {
+       "id":3,
+       "name":"bijoy",
+       "department":"it",
+       "salary":55000
+    } ,
+    {
+        "id":4,
+        "name":"john",
+        "department":"it",
+        "salary":75000
+     }  
+   ]
