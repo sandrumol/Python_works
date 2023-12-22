@@ -1,3 +1,4 @@
+# Factorial
 num=5
 fact=1
 while(num>=1): #or  while(num!=0)

@@ -1,3 +1,4 @@
+# Fibonacci series
 prev=0
 current=1
 print(f"{prev} {current}",end=" ")

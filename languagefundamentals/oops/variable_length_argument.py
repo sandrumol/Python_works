@@ -15,6 +15,7 @@
 # print(add(10,20))
 # print(add(10,20,30))
 
+# --------------------------------------------------------------
 
 
 # print last digit sum
@@ -31,6 +32,9 @@
 # print(last_digit_sum(123,345,567,760,678))
 
 
+# --------------------------------------------------------------
+
+
 # print last digit max
 
 # def last_digit_max(*args):
@@ -39,6 +43,8 @@
 
 # print(last_digit_max(16,20,19,15))
 
+
+# --------------------------------------------------------------
 
 
 # **kwargs
@@ -50,6 +56,7 @@
 # add_employee(id=10,name="hari",n_place="ekm",w_place="tvm",salary=24000)
 
 
+# --------------------------------------------------------------
 
 
 # def my_fun(*args,**kwargs):
@@ -57,6 +64,9 @@
 #     print(kwargs)   # dict
 
 # my_fun(23,45,17,36,reversed=True)
+
+
+# --------------------------------------------------------------
 
 
 # def last_digit_sort(*args,**kwargs):
@@ -71,6 +81,8 @@
 # last_digit_sort(17,12,14,3,1,reversed=True)
 # last_digit_sort(17,12,14,3,1,reversed=False)
 
+
+# --------------------------------------------------------------
 
 
 # last_digit_calculator(423,234,123,453,567,op=+)

@@ -78,17 +78,56 @@ print("""valid string""")
 # lambda function => used to simplify program
 #                    does not have function name
 
+print("-------------------------------------")
+
+
 add=lambda n1,n2:n1+n2
 print(add(100,200))
+
+print("-------------------------------------")
+
+
+# round =>
+num=123.456783
+out=round(num,2)
+print(out)
+
+print("-------------------------------------")
+
+# map
+numbers=[1,2,3,5,6,7]
+cubes=list(map(lambda num:num**3,numbers))
+print(cubes)
+
+add_five=list(map(lambda num:num+5,numbers))
+print(add_five)
+
+print("-------------------------------------")
+
+
+# filter()
+numbers=[1,2,3,5,6,7]
+odds=list(filter(lambda num:num%2!=0,numbers))
+print(odds)
+
+names=["python","pytz","django","rest","angular","pytorch"]
+name_filter=list(filter(lambda w:w.startswith("py"),names))
+print(name_filter)
 
 
 
 # builtin.py  -> print()
 #                input()
+#                type()
 #                sorted(iterable,key,reverse)
 #                sum(iterable)
 #                max(iterable,key)
 #                min(iterable,key)
+#                range()
+#                round()
+#                len()
+#                map(function,iterable)
+#                filter()
 
 
 
@@ -321,3 +360,15 @@ print(add(100,200))
 
 # print(sub(2,10))
 # print(div(2,10))
+
+
+# inheritance -> methods and properties of parent class is acquired by child class
+
+# polymorphism - method overloading, method overriding
+# method overloading -> within a class
+# method overriding ->requires minimum 2 class
+
+# super()
+
+# abstraction -> used to hide the implementation details of methods in a class
+# abstract methods -> methods that do not have definition
